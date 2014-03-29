@@ -1,0 +1,34 @@
+{
+    "name": "janmalte/jm-doctrine-orm-test",
+    "version": "1.0.0",
+    "description": "ZF2 test framework for doctrine orm tests.",
+    "license": "Apache-2.0",
+    "keywords": [
+        "framework",
+        "zf2",
+        "orm",
+        "test",
+        "DbUnit"
+    ],
+    "homepage": "http://www.malte-gerth.de/",
+    "repositories": [
+        {
+            "type": "composer",
+            "url": "http://packages.malte-gerth.org/"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+        "php": ">=5.4",
+        "phpunit/phpunit": "3.7.*",
+        "phpunit/dbunit": ">=1.2",
+        "zendframework/zendframework": "2.*",
+        "doctrine/orm": "dev-master",
+        "doctrine/common": "dev-master"
+    },
+    "autoload": {
+        "psr-0": {
+            "JmDoctrineOrmTest": "src/"
+        }
+    }
+}
