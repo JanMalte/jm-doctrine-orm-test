@@ -20,11 +20,11 @@
     "minimum-stability": "dev",
     "require": {
         "php": ">=5.4",
-        "phpunit/phpunit": "3.7.*",
+        "phpunit/phpunit": ">=3.7.*",
         "phpunit/dbunit": ">=1.2",
-        "zendframework/zendframework": "2.2.*",
+        "zendframework/zendframework": "2.*",
         "doctrine/orm": ">=2.3",
-        "doctrine/common": "2.4.*"
+        "doctrine/common": ">=2.4.*"
     },
     "autoload": {
         "psr-0": {
